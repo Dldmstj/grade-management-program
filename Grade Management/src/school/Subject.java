@@ -14,7 +14,7 @@ public class Subject {
 	// register() 메서드 호출하면 리스트에 추가됨
 	private ArrayList<Student> studentList = new ArrayList<Student>();
 	
-	public Subject(String subjectName, int subjectId, int gradeType) {
+	public Subject(String subjectName, int subjectId) {
 		this.subjectName = subjectName;
 		this.subjectId = subjectId;
 		this.garadeType = Define.AB_TYPE;		// A,B 타입 평가방식
